@@ -1,0 +1,49 @@
+:root{
+  --wilcox-gold:#f9DC5F;
+  --wilcox-green:#46b649;
+}
+
+
+#about-section {
+  max-width: 650px;
+  margin: 0 auto;
+  line-height: 175%;
+}
+nav{
+  height: 100px;
+  background-color: var(--wilcox-green);
+  padding: 25px;
+  width: 66%;
+  margin: 0 auto;
+  
+}
+nav img {
+  height: 100%;
+  fill: var(--wilcox-gold);
+}
+
+form {
+  max-width: 650px;
+  margin: 0 auto;
+}
+input[type="text"] {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  resize: vertical;
+}
+.name-field{
+  display: flex;
+}
+.citystatezip{
+  display: flex;
+}
+.citystatezip > input[type="text"], .citystatezip > select {
+  width:33%;
+  height: 38px;
+  background-color:white;
+  border:1px solid #ccc;
+  display: border-box;
+}
