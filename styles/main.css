@@ -1,7 +1,7 @@
 :root{
   --wilcox-gold:#f9DC5F;
   --wilcox-green:#46b649;
-  --site-width:1200px;
+  --site-width:1140px;
 }
 
 a {
@@ -48,6 +48,8 @@ nav{
   font-size: 2rem;
   font-weight: bold;
   margin-top: auto;
+  width: 430px;
+  text-align: center;
 }
 #nav-content img {
   height: 100%;
