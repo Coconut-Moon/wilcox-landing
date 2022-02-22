@@ -7,6 +7,13 @@
 a {
   color: var(--wilcox-green);
 }
+body{
+  margin-bottom: 20px;
+}
+p{
+  font-size: 1.2em;
+  margin-top: 20px;
+}
 * {
   box-sizing: border-box;
   margin: 0;
