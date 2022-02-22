@@ -1,6 +1,7 @@
 :root{
   --wilcox-gold:#f9DC5F;
   --wilcox-green:#46b649;
+  --site-width:1200px;
 }
 
 a {
@@ -23,23 +24,32 @@ a {
 }
 #container{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  width: var(--site-width);
+  margin: 0 auto;
 }
 nav{
   height: 120px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   background-color: var(--wilcox-green);
-  padding: 25px;
-  margin: 0 auto;
 }
-nav h2{
+#nav-content{
+  width: var(--site-width);
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  box-sizing: border-box;
+}
+#nav-content h2{
   color: var(--wilcox-gold);
   font-size: 2rem;
   font-weight: bold;
+  margin-top: auto;
 }
-nav img {
+#nav-content img {
   height: 100%;
   fill: var(--wilcox-gold);
 }
@@ -96,13 +106,16 @@ button:hover{
 }
 
 @media screen and (max-width: 1200px) {
+  :root {
+    --site-width: 100%;
+  }
   form {
     margin: 30px;
   }
   #container{
     flex-direction: column;
   }
-  nav h2 {
+  #nav-content h2 {
     font-size:1.5rem;
   }
   /* .name-field{
