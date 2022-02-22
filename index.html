@@ -4,13 +4,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script defer src="/wilcox-landing/scripts/app.js"/></script>
-  <link rel="stylesheet" href="/wilcox-landing/styles/main.css"/>
+  <script defer src="/wilcox-demo/scripts/app.js"/></script>
+  <link rel="stylesheet" href="/wilcox-demo/styles/main.css"/>
   <title>Wilcox Cold Storage</title>
 </head>
 <body>
   <nav>
-    <img src="/wilcox-landing/images/Secondary-Mark-Gld.svg" alt="" class="src">
+    <img src="/images/Secondary-Mark-Gld.svg" alt="" class="src">
     <h2>415-282-4166</h2>
   </nav>
   <div id="container">
@@ -25,35 +25,34 @@
     <section id="form">
       <form action="">
         <h4 >Company Name</h4>
-        <input type="text" name="Company Name" placeholder="Company Name">
+        <input type="text" name="Company Name" required placeholder="Company Name">
         <h4>Name</h4>
         <div class="name-field">
-          <input type="text" name="first name" placeholder="First">
-          <input type="text" name="last name" placeholder="Last">
+          <input type="text" name="first name" required placeholder="First">
+          <input type="text" name="last name" required placeholder="Last">
         </div>
         <h4>Title</h4>
         <input type="text" name="Title" placeholder="Title">
         <h4>Address</h4>
         <div class="address-field">
-          <input type="text" name="Address" placeholder="Address">
+          <input type="text" name="Address" required placeholder="Address">
           <input type="text" name="Address 2" placeholder="Address 2">
           <div class="citystatezip">
-            <input type="text" name="City" placeholder="City">
-            <select name="State" value="state">
+            <input type="text" name="City" required placeholder="City">
+            <select name="State" required value="state">
               <option value="state">State</option>
               <option value="CA">California</option>
             </select>
-            <input type="text" name="Zip" placeholder="Zip">
+            <input type="text" required name="Zip" placeholder="Zip">
           </div>
         </div>
         <h4>Email</h4>
-        <input type="text" name="Email" placeholder="Email">
+        <input type="text" required name="Email" placeholder="Email">
         <h4>Phone</h4>
-        <input type="text" name="Phone" placeholder="Phone">
+        <input type="text" required name="Phone" placeholder="Phone">
         <h4>Message</h4>
-        <textarea name="Message" placeholder="Message"></textarea>
-  
-  
+        <textarea name="Message" required placeholder="Message"></textarea>
+        <button type="submit">Submit</button>
       </form>
     </section>
   </div>
