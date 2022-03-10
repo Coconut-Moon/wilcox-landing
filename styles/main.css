@@ -1,6 +1,6 @@
 :root{
   --wilcox-gold:#f9DC5F;
-  --wilcox-green:#46b649;
+  --wilcox-green:#285E2D;
   --site-width:1140px;
 }
 
@@ -18,6 +18,11 @@ p{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+#side-image {
+  display: block;
+  width: 100%;
+  margin-top: 18%;
 }
 #about-section {
   max-width: 650px;
@@ -64,7 +69,7 @@ nav{
 }
 
 form {
-  margin-top:20%;
+  margin-top:5%;
   max-width: 650px;
   display: flex;
   flex-direction: column;
