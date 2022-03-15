@@ -21,7 +21,8 @@ p{
 }
 #side-image {
   display: block;
-  width: 100%;
+  width: 80%;
+  margin: 0 auto;
   margin-top: 18%;
 }
 #about-section {
@@ -60,14 +61,25 @@ nav{
   font-size: 2rem;
   font-weight: bold;
   margin-top: auto;
-  width: 430px;
   text-align: center;
 }
 #nav-content img {
   height: 100%;
   fill: var(--wilcox-gold);
 }
-
+#form-label{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  background-color: var(--wilcox-green);
+  padding: 8px;
+  width: fit-content;
+  font-size: 12px;
+  margin: auto;
+  margin-top:60px;
+  color: var(--wilcox-gold);
+}
 form {
   margin-top:5%;
   max-width: 650px;
