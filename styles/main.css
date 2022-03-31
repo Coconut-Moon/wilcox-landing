@@ -25,16 +25,21 @@ p{
   display: block;
   max-width: 80%;
   margin: 0 auto;
-  margin-top: 24%;
+}
+#form-image{
+  display: block;
+  max-width: 470px;
+  margin: 0 auto;
+  margin-top:43%;
 }
 #body-image{
   display: block;
-  width: 80%;
+  max-width: 470px;
   margin: 0 auto;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 #about-section {
-  max-width: 650px;
+  max-width: 585px;
   margin: 30px;
   line-height: 175%;
 }
@@ -73,7 +78,6 @@ nav {
   text-align: center;
 }
 #nav-content img {
-  height: 100%;
   fill: var(--wilcox-gold);
 }
 #form-label{
@@ -150,7 +154,7 @@ button:hover{
   #container{
     flex-direction: column;
   }
-  #side-image{
+  #form-image{
     display: none;
   }
   #body-image{
